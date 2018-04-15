@@ -52,12 +52,14 @@ To compile the book, the following are required.
 * texlive-core (for latexmk)
 * texlive-latexextra (for bibtex and makeglossaries)
 * texlive-bibtexextra (for additional BibTeX styles and bibliography databases)
+* texlive-science (for SympyTeX)
 * xelatex (for setting and using custom fonts)
 * biber (for generating bibliography)
 * Python 3.5+
   * frccontrol (to provide FRC wrappers for Python Control)
   * Python Control (to generate plots and state-space results)
     * Installed automatically as a dependency of frccontrol
+  * Sympy (to generate algebraic results)
 * Inkscape (to convert SVGs to PDF)
 
 The following are optional because the book can compile without them.
