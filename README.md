@@ -67,6 +67,26 @@ The following are optional because the book can compile without them.
   * black (to format Python source code)
 * ghostscript (to reduce size of final PDF for publishing)
 
+### Installing Python Control
+
+Python Control can be installed via pip3. To make pole-zero maps for all the
+examples work, build and install the `statesp-zero` branch of Python Control
+from the Git repo at https://github.com/calcmogul/python-control instead of
+using the version on pypi.org.
+
+```
+git clone git://github.com/calcmogul/python-control
+cd python-control
+git checkout statesp-zero
+pip3 install --user .
+```
+
+After that, install frccontrol via pip3.
+
+```
+pip3 install --user frccontrol
+```
+
 ## Compiling the book
 
 After installing the dependencies, just run `make`. By default, two files will
